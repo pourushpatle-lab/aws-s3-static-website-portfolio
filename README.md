@@ -43,12 +43,6 @@ HTML, CSS and Website Assets
 5. Configured a bucket policy for public read access.
 6. Tested the website endpoint in a browser.
 
-## Live Website
-
-Replace this line with your actual S3 website endpoint:
-YOUR-WEBSITE-ENDPOINT
-
-Note: The direct S3 website endpoint uses HTTP, not HTTPS.
 
 ## Screenshots
 
