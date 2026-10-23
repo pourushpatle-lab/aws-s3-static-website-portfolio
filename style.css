@@ -1,0 +1,85 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #172033;
+  line-height: 1.6;
+}
+
+header {
+  background: #172033;
+  color: white;
+  padding: 16px 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 32px 20px;
+}
+
+.hero {
+  background: white;
+  padding: 40px 28px;
+  border-radius: 16px;
+  margin-bottom: 28px;
+}
+
+.hero h1 {
+  font-size: clamp(30px, 5vw, 48px);
+  line-height: 1.15;
+}
+
+.tag {
+  color: #a65a00;
+  font-weight: bold;
+}
+
+.button {
+  display: inline-block;
+  background: #172033;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills span,
+.project {
+  background: white;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.project {
+  border: 1px solid #dce3ed;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #526078;
+}
